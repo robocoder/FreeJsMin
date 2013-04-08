@@ -1,0 +1,20 @@
+{
+    "name": "vipsoft/free-js-min",
+    "type": "library",
+    "description": "Free JavaScript Minifier",
+    "keywords": ["javascript", "minifier", "jsmin"],
+    "homepage": "http://github.com/vipsoft/",
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Anthon Pang",
+            "email": "apang@softwaredevelopment.ca"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.6"
+    },
+    "autoload": {
+        "psr-0": { "VIPSoft\\FreeJsMin": "src/" }
+    }
+}
